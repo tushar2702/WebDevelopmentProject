@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <p>
+        I was testing the Reservation page of my project and I came across a problem. 
+        Under reservation, the user firstly needs to check for availability of rooms. 
+        So, the checkin and checkout date initially are empty. If the user entered the 
+        checkin and checkout dates, he used to get the available rooms if any and the 
+        dates used to go away. I used to keep track of these dates in session variables 
+        and then use them and display it on the next page. If now the user clicks on 
+        check availability button again, the session variables have blank dates and they 
+        are not passed onto the next page. I tried many things but finally it was HTML5 
+        Web Storage to the rescue and it helped me preserve these values in the 
+        respective textboxes!
+    </p>
+    <p>
+        For achieving this, I also performed an experiment on HTML5 Web Storage to get a 
+        better understanding of it. In this experiment, I have shown that there are two 
+        types of storages. Session storage maintains a session and I store the number of 
+        hits for a page. This sessionStorage will forget the count of hits once the page 
+        is closed. As opposed to the Session Storage, there is another type of storage 
+        called LocalStorage which stores the number of hits on your current local 
+        browser. Hence, if you close the page and then reopen it again, it will still 
+        remember the count and display to you the number of hits to the page. I use 
+        javascript to write the code when the window is loaded and I make use of 
+        sessionStorage.hits and localStorage.hits to get the number of hits. I increment 
+        it by one everytime the page is loaded.
+    </p>
+    <p>
+        I also had created About My Project page where I have given a short description 
+        of my project before you actually go to the project homepage.</p>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reservation 3</title>
+    <link rel="Stylesheet" href="../../css/enlarge.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style_screen.css" type="text/css" />
+</head>
+<body class="centerblock">
+    <h2 class="center">
+        Reservation - 3 (Rewards)</h2>
+    <hr />
+    <br />
+    <div class="fs130">
+        <p>
+            I also maintain rewards for each user. I give one point for every booking and there
+            are coupons for minimum number of points. The user can view the coupons he is eligible
+            for redeeming. I have two tables in my database for achieving this. One is "Points"
+            table with the username and the number of points he has gained till now. The other
+            table is the "Coupon" table with the coupon code, the description and the minimum
+            number of points that is required to redeem the coupon.
+        </p>
+        <p>
+            I have written this code in SQL query and I have used a join on the two tables Coupon
+            and Points to display the code description and mimimum points. So for this I need
+            to display only the information for that user (based on the username from the Points
+            table) and for the condition that the user must have the minimum number of points
+            i.e. to compare the points in the Points table with the min points in the Coupon
+            Table. I have also displayed the current points that the user has gained by writing
+            another SQL query to retrieve the current points from the Points table for the user
+            that is logged in.
+        </p>
+        <p>
+            <img alt="Rewards" src="../images/documentation/rewards.png" width="800" height="400" />
+        </p>
+        <p>
+            Important Technologies used:</p>
+        <ul>
+            <li>ASP.NET and C#</li>
+            <li>SQL</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+    
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- This is the stylesheet for my master page -->
+    <link rel="Stylesheet" type="text/css" href="css/MasterStyle.css" />
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script> -->
+    <script type="text/javascript">
+
+        /* This is for the digital clock at the right hand side corner of the master page */
+        $(document).ready(function () {
+            /* An array holding all the days and months */
+            var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
+            var dateObj = new Date();
+            dateObj.setDate(dateObj.getDate()); //get the current date and set it in the dateObj
+
+            /* The day, date, month and year is printed */
+
+            $('.Date').html(days[dateObj.getDay()] + " " + dateObj.getDate() + " " + months[(dateObj.getMonth())] + " " + dateObj.getFullYear());
+
+
+            /* The setInterval is a standard Javascript function. using this you can call the function specified in it periodically */
+            /* These three functions gets the seconds, minutes and hours and sets it using selector.html */
+
+            setInterval(function () {
+
+                var seconds = new Date().getSeconds();
+                // Add a leading zero to seconds value
+                $(".sec").html((seconds < 10 ? "0" : "") + seconds);
+            }, 1000);
+
+            setInterval(function () {
+
+                var min = new Date().getMinutes();
+                // Add a leading zero to seconds value
+                $(".min").html((min < 10 ? "0" : "") + min);
+            }, 1000);
+
+            setInterval(function () {
+
+                var hours = new Date().getHours();
+
+                $(".hours").html((hours < 10 ? "0" : "") + hours);
+            }, 1000);
+
+        });
+
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- This is the header which holds the picture of my hotel name and the digital clock -->
+        <div class="Header">
+            <div class="clock">
+                <!-- The day date month year -->
+                <div class="Date">
+                </div>
+                <!-- The hours, mins and seconds -->
+                <ul class="Date1">
+                    <li class="hours"></li>
+                    <li class="colon">:</li>
+                    <li class="min"></li>
+                    <li class="colon">:</li>
+                    <li class="sec"></li>
+                </ul>
+            </div>
+            <a href="home.aspx">
+                <img src="images/logo2.png" /></a>
+        </div>
+        <!-- This is the container that holds the navigation on each page and the ContentPlaceHolder -->
+        <div class="container">
+            <div class="nav">
+                <ul class="vertical">
+                    <li><a href="home.aspx" target="_blank">Home</a></li>
+                    <li><a href="accomodations.aspx" target="_blank">Accomodation</a></li>
+                    <li><a href="services.aspx" target="_blank">Services</a></li>
+                    <li><a href="login.aspx" target="_blank">Reservation</a></li>
+                    <li><a href="dining.aspx" target="_blank">Dining</a></li>
+                    <li><a href="photoGallery.aspx" target="_blank">Gallery</a></li>
+                    <li><a href="careers.aspx" target="_blank">Careers</a></li>
+                    <li><a href="contact.aspx" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <!-- End of container div -->
+        <!-- This is the footer div which has copyright note and link to main home -->
+        <div class="footer">
+            &copy; 2012 Tushar Bhandari. All rights reserved. <a class="MainHome" href="../Default.aspx"
+                target="_blank">Main Home</a></div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <link rel="Stylesheet" href="../../css/enlarge.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style_screen.css" type="text/css" />
+</head>
+<body class="centerblock">
+    <h2 class="center">
+        Login and Register</h2>
+    <hr />
+    <br />
+    <div class="fs130">
+        <p>
+            The Login page contains the login Control and link for user registration if user
+            is not already registered. I have used login control of asp.net for the project.
+            Once the user is logged in, he will be redirected to a LoggedIn page "loggedin.aspx"
+            where he can choose to do 3 things: whether to check availability of rooms and book
+            them, retrive his past bookings or also track the reward points he has gained until
+            now and the coupons that he is eligible to use. If the user is already loggedin,
+            and clicks on the Reservations tab he will be redirected on this loggedin page.
+        </p>
+        <p>
+            I have also taken care of one important thing. That is if the user is logged in
+            and he opens several tabs when logged in, then when he presses the logout button,
+            he should not be given access to any of the pages and should be redirected back
+            to the login page. I have achieved this by writing some code in C#.</p>
+        <p>
+            While attempting to login, I have also provided an image showing that the logging
+            in task is in process. I have used an Update Progress control to accomplish this.
+            I created this image with the help of this website <a href="http://ajaxload.info/"
+                target="_blank">http://ajaxload.info/</a></p>
+        <img alt="Login" src="../images/documentation/login.png" width="800" height="400" />
+        <p>
+            User is redirected to the Register page if he is not already a member. Once he has
+            successfully registered and he clicks on continue he will be redirected to the loggedin
+            page. This is again the ASP.NET CreateUserWizard Control that I have used. I also
+            maintain a profile for each user by making necessary additions to the web.config
+            file and I save the user's first name and last name to the profile.
+        </p>
+        <img alt="Register" src="../images/documentation/register.png" width="800" height="400" />
+        <p>
+            Important Technologies used in these pages:</p>
+        <ul>
+            <li>CSS3</li>
+            <li>ASP.NET Login Control</li>
+            <li>ASP.NET CreateUserWizard Control</li>
+            <li>AJAX Update Panel and Update Progress Control</li>
+        </ul>
+    </div>
+</body>
+</html>

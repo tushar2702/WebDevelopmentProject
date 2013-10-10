@@ -1,0 +1,21 @@
+﻿    /* Title that I write at the top */
+    .title
+    {
+        font-style:italic;
+        font-size:19px;
+        padding-top:50px;
+    }
+    
+    /* The label which prints the number of points the user currently has */
+    /* Also css for redeeming coupon text content */
+    .lbl, .redeem
+    {
+        font-size:17px;
+        margin-right:30px;
+        color:Black;
+    }
+    
+    .grid
+    {
+        margin-right:30px;
+    }

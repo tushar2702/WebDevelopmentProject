@@ -1,0 +1,68 @@
+﻿    
+    /* This is the room type div */
+    .type
+    {
+        margin-top:20px;   
+        float:left;
+        margin-right:20px;
+        width:55%;
+        height:270px;
+    }
+    
+    
+    .RoomTitle
+    {
+        
+        font-size:23px;
+        padding-top:20px;
+        font-weight:bold;
+        text-decoration:underline;
+        
+    }
+    
+    /* The details about the room */
+    .details
+    {
+        
+      padding-top:35px; 
+      padding-left:20px;
+      margin-right:20px;
+      font-size:1.1em;
+      color:#555;
+      text-align:justify;
+    }
+    
+    /* The amenities are shown as list having two columns */    
+    .double_column_list li 
+    {
+        float: left;
+        width:30%;
+        margin-left:40px;
+    }
+    
+     /* This is the drop down list CSS */   
+    .ddl
+    {
+     
+        border:2px solid gray;  
+        font-size:18px;
+        font-style:italic;
+        color:gray;
+        background-color:#faf0e6;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        
+    }
+    
+    .ddlTitle
+    {
+        padding-top:40px;
+    }
+    
+    .ddlTitle1
+    {
+        color:Black;
+        font-size:20px;
+        padding-right:20px;
+        font-weight:bold;
+    }
+   

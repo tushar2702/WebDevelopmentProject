@@ -1,0 +1,113 @@
+﻿
+	/* The entire Body is in this Body div */
+    .Body
+    {
+        font-family: Bell MT, Adobe Garamond Pro, Sans-Serif;
+        background: url('../images/login-page-bg.jpg') no-repeat #c4c4c4;
+        color: #3a3a3a;
+     	background-position:top center;
+     	min-width:800px;			 
+     	min-height:1100px; 
+    }
+	
+	/* CSS for the login button. I have used an image background for it */			  
+    .button1
+    { 
+        background: url('../images/button-bg.png') repeat-x top center;
+        background-size:100%;
+        border: 1px solid #999;
+        border-radius:5px;
+		-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		-o-border-radius:5px;
+		-ms-border-radius:5px;
+		padding: 5px; 
+		color: Black; 
+		font-weight: bold;
+		font-size: 15px;
+		width: 70px;
+		margin-top:0px; 
+		font-family:Bell MT,Adobe Garamond Pro,Serif;
+    }
+					  
+    /* Hovering over login button changes color to white 
+     and background color to black*/					  
+    .button1:hover
+    {
+        background: black; 
+        color: white; 
+    }
+
+    /*This div contains all the login part */
+    .login1
+    {        
+        margin-left:37%;
+        padding-top:73px;
+        font-size:18px;        
+    }
+        
+    .login1 a, .login1 a:visited
+    {
+        text-decoration:none;
+        color:gray;
+        font-size:16px;
+        font-style:italic;
+        
+    }
+        
+    .label
+    {   
+        padding:10px;
+        text-align:left;
+        
+    }
+            
+    .textbox
+    {
+        padding:5px;    
+        border:2px solid gray;
+        border-radius:5px;  
+        box-shadow: 2px 2px 3px gray inset;
+        -webkit-box-shadow: 2px 2px 3px gray inset;
+        -moz-box-shadow: 2px 2px 3px gray inset;
+        font-family:Bell MT, Adobe Garamond Pro,Serif;
+        width:150px;
+        font-size:15px;
+        font-weight:bold;
+    }
+        
+    .checkbox
+    {
+        padding-top:20px;
+    }
+    
+    .failure_text
+    {
+        font-size:16px;
+        font-style:italic;
+        margin-top:-35px;
+        
+    }
+    
+    /* CSS for the loading image */
+    .loaderimg
+    {
+        z-index:999;
+        margin-top:-20%;
+        margin-left:20%;
+        opacity:0.7;
+        filter:alpha(opacity=70); /* For IE8 and earlier */
+    }
+    
+    .text
+    {
+        color:#222;
+        font-size:18px;
+    }
+    
+    /* The credentials that I have supplied for evaluation login */
+    .credentials
+    {
+        text-decoration: underline;
+        color: black;
+    }

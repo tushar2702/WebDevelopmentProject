@@ -1,0 +1,57 @@
+﻿
+      .align
+    {
+        padding-top:30px;
+        margin-left:38%;
+        font-size:25px;
+        font-weight:bold;
+        text-decoration:underline;
+    }
+    
+    .info
+    {
+        width:350px;
+        float:left;
+        font-size:17px;
+        
+    }
+    
+    .btn
+    {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(gray)) !important;
+        background: -moz-linear-gradient(to bottom right, black,gray) !important;
+        background: -o-linear-gradient(bottom, black, gray) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='gray'); /* for IE */
+        background-color:#242424;
+        color:White;
+        padding:10px;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-size:17px;
+    }
+    
+    .feed
+    {
+        font-size:17px;
+        margin-right:20px;
+    }
+    
+    /* CSS for the links */
+    .feed a, .feed a:visited
+    {
+        text-decoration:none;
+        color:White;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(gray)) !important;
+        background: -moz-linear-gradient(to bottom right, black,gray) !important;
+        background: -o-linear-gradient(bottom, black, gray) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='gray'); /* for IE */
+        background-color:#242424;
+        padding:10px;
+    }
+    
+    /* This is the map which is shown using Google Map API*/
+    #map_canvas
+    {
+        width: 500px; 
+        height: 350px; 
+        
+    }

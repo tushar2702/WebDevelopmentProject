@@ -1,0 +1,85 @@
+﻿    /* This is the career description that I have mentioned at the top */
+    .careerDesc
+    {
+        font-style:italic;
+        margin-right:30px;
+        font-size:18px;
+    }
+
+    .grid
+    {
+        margin-right:40px;
+    }
+    
+    .ddl
+    {
+        width:165px;
+    }
+    
+    .bold
+    {
+        font-weight:bold;
+        font-size:20px;
+        padding-bottom:15px;
+    }
+
+    /* The css for the entire table of careers */
+    .careerTable
+    {
+         -webkit-box-shadow: 0px 0px 7px 4px #888;
+        -moz-box-shadow: 0px 0px 7px 4px #888;
+        -o-box-shadow: 0px 0px 7px 4px #888;
+        box-shadow: 0px 0px 7px 4px #888;
+        border:0px solid white;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -o-border-radius:5px;
+        background-color:#faf0e6;
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-left:28%;
+        margin-right:40px;
+    }
+    
+    /* CSS for round text boxes */
+    .round
+    {
+        border:0px solid;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        box-shadow: 2px 2px 3px gray inset;
+        -webkit-box-shadow: 2px 2px 3px gray inset;
+        -moz-box-shadow: 2px 2px 3px gray inset;
+        padding:5px;
+        font-size:16px;
+        color:#222;
+        width:180px;   
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-weight:bold;
+        
+    }
+
+    .button
+    {
+        padding:10px;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-size:16px;
+        font-weight:bold;
+    }
+    
+    .ddl
+    {
+        font-size:16px;
+        font-family:Bell MT, Adobe Garamond Pro, Serif;
+        font-weight:bold;
+    }
+    
+    .lbl
+    {
+        margin-right:30px;
+    }
+    

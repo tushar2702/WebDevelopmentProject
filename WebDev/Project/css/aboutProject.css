@@ -1,0 +1,111 @@
+﻿.projTitle
+    {        
+        color:#222;
+        font-size:22px;
+        text-align:center;
+        text-decoration:underline;
+        font-family:Segoe UI,Verdana,Serif;
+        font-weight:bold;
+    }
+    
+    .projectDetails
+    {
+        width:85%;
+        text-align:justify;
+        margin:0 auto;
+        font-family:Segoe UI,Verdana,Serif;
+        font-size:16px;
+        color:#222;
+    }
+    
+    .listOfTech
+    {
+        list-style-type:square;
+    }
+    
+        .links div
+    {
+        font-size:18px;
+        font-variant:small-caps;
+            
+    }
+    
+    .links div a, .links div a:visited
+    {
+        text-decoration:none;
+        color:White;
+        border:0px solid;
+        border-radius:500px;
+        background:#242424;
+        /*background: -webkit-gradient(linear, 0 0, 100% 100%, from(#333), to(#6facb8));
+        background: -moz-linear-gradient(to bottom right, #333,#6facb8);
+        background: -o-linear-gradient(bottom, #333,#6facb8);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#333, endColorstr=#6facb8); /* for IE */
+        padding:6px;
+        padding-left:8px;
+        padding-right:8px;
+        -webkit-transition:all 0.6s linear; /* Safari and Chrome */
+        -o-transition: all 0.6s linear; /*Opera*/
+        -moz-transition: all 0.6s linear; /* Firefox */
+        transition: all 0.6s linear;
+        
+
+    }
+    
+    .links div a:hover
+    {
+        padding-left:30px;
+        padding-right:30px;
+    }
+    
+    /* The white container which is contained inside the body */
+    .container 
+     {
+        background-color:White;
+        max-width:800px;
+        min-width:305px;
+        margin: 40px auto;
+        padding: 0px 15px;
+        border:2px solid #666;
+        border-radius:15px;
+        -webkit-border-radius:15px;
+        -moz-border-radius:15px;
+        -o-border-radius:15px;
+        box-shadow: 0 0 7px 7px #555;
+        -webkit-box-shadow:0 0 7px 7px #555;
+        -moz-box-shadow:0 0 7px 7px #555;
+    
+     }
+ 
+    body 
+    {
+        margin:0;
+        padding: 0;
+        background-color:#6facb8;
+    }
+
+    .pad
+    {
+        padding: 10px;
+    }
+    
+    table
+    {
+        margin-left:-8px;
+        color:black;
+    }
+    
+    table tr td
+    {
+        background-color:#6facb8;
+        border: 1px solid #222;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -o-border-radius:5px;
+        padding:5px;
+        vertical-align:top;
+        
+    }
+    
+    

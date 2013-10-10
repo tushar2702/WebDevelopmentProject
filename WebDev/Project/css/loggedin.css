@@ -1,0 +1,62 @@
+﻿
+    /* This is the css for the welcome message that is printed at the top */    
+    .welcome_message
+    {
+        padding-top:40px;
+        font-size:25px;
+        text-decoration:none;
+        color: Black; 
+		font-weight: bold;
+    }
+    
+    .loginName
+    {
+        color:Black;
+        
+    }
+    
+    /* This is for the lines that I write at the top for the member */
+    .MemberContent
+    {
+        font-size:1.1em;
+        margin-right:20px;
+        font-style:italic;   
+    }
+    
+    /* CSS for the text before the GO button */
+    .links div
+    {
+        font-size:18px;
+        font-variant:small-caps;
+            
+    }
+    
+    /* CSS for the GO link */
+    .links div a, .links div a:visited
+    {
+        text-decoration:none;
+        color:White;
+        border:0px solid;
+        border-radius:500px;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(gray));
+        background: -moz-linear-gradient(to bottom right, black,gray);
+        background: -o-linear-gradient(bottom, black, gray);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='gray'); /* for IE */
+        background-color:#242424;
+        padding:6px;
+        padding-left:8px;
+        padding-right:8px;
+        -webkit-transition:all 0.6s linear; /* Safari and Chrome */
+        -o-transition: all 0.6s linear; /*Opera*/
+        -moz-transition: all 0.6s linear; /* Firefox */
+        transition: all 0.6s linear;
+        
+
+    }
+    
+    /* CSS for the GO link when hovered */
+    .links div a:hover
+    {
+        padding-left:50px;
+    }
+    

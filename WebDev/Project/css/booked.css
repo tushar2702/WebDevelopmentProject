@@ -1,0 +1,58 @@
+﻿
+  /* CSS for round text boxes */
+    .round
+    {
+        border:0px solid;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        box-shadow: 2px 2px 3px gray inset;
+        -webkit-box-shadow: 2px 2px 3px gray inset;
+        -moz-box-shadow: 2px 2px 3px gray inset;
+        padding:5px;
+        font-size:16px;
+        color:#60b7b7;
+        width:155px;   
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-weight:bold;
+    }
+
+    .btn
+    {
+        padding:10px;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-size:16px;
+        font-weight:bold;
+    }
+    
+    /* CSS for title of the fields such as from and to */
+    .fieldTitle 
+    {
+      font-size:17px;
+      color:Black;
+      font-variant:small-caps;
+    }
+     
+     .lbl
+     {
+     color:Gray;
+     font-size:15px;
+     font-style:italic;             
+     }
+    
+    /* CSS for success message */ 
+     .success
+    {
+        font-size:18px;
+        padding-top:80px;
+        margin-right:20px;
+        font-style:italic;
+    }
+    
+    /* CSS for the text that I have written at the top */
+    .sendmail
+    {
+        margin-right:20px;
+        font-size:17px;
+    }
+    

@@ -1,0 +1,44 @@
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/camera.jpg</ImageUrl>
+    <NavigateUrl>http://www.nikonusa.com/index.page</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <Impressions>20</Impressions>
+    <Height>300</Height>
+    <Width>400</Width>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/watch.jpg</ImageUrl>
+    <NavigateUrl>http://www.zappos.com/watches</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <Impressions>20</Impressions>
+    <Height>300</Height>
+    <Width>400</Width>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/macbook.jpg</ImageUrl>
+    <NavigateUrl>http://store.apple.com/us</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <Impressions>20</Impressions>
+    <Height>300</Height>
+    <Width>400</Width>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/iphone.png</ImageUrl>
+    <NavigateUrl>http://www.apple.com/iphone/</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <Impressions>20</Impressions>
+    <Height>300</Height>
+    <Width>400</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/projector.jpg</ImageUrl>
+    <NavigateUrl>http://www.hdprojectorworld.com/SearchResults.asp?Cat=1829</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <Impressions>10</Impressions>
+    <Height>300</Height>
+    <Width>400</Width>
+  </Ad>
+ 
+</Advertisements>

@@ -1,0 +1,40 @@
+﻿    body
+    {
+    width:970px;
+    margin:auto;
+    padding:auto;
+    }
+
+    /* The header of the document */
+    h2
+    {
+    text-align:center;
+    text-decoration:underline;
+    }
+        
+    /* CSS for all topics like Purpose, References,etc. in my document */
+    .topic
+    {
+            
+    text-decoration:underline;
+    text-transform:uppercase;
+    font-size:20px;
+    font-style:italic;
+    font-family: Segoe UI, Verdana, Serif;
+    
+    }
+
+    /* CSS for all the content after the topics */
+    .content
+    {
+    font-size:14px;
+    font-family: Segoe UI, Verdana, Serif;
+    }
+        
+    /* For all the links in my document */    
+    a,a:visited
+    {
+     text-decoration:none;    
+     color:blue;
+    }
+      

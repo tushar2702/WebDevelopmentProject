@@ -1,0 +1,20 @@
+﻿../../story/whatisnext.htm?../Project/Documentation/story.txt  What is Next?
+Synopsis.htm Synopsis
+Sitemap.htm	Sitemap
+Masterpage.htm Masterpage
+Homepage.htm Homepage
+Accomodation.htm Accomodation
+Services.htm Services
+Login.htm Login and Register
+Reservation1.htm Reservation - 1 (Check Room Availability)
+Reservation2.htm Reservation - 2 (Retrieve Booking)
+Reservation3.htm Reservation - 3 (Rewards)
+Dining.htm Dining
+Gallery.htm	Gallery
+Careers.htm Careers
+Contact.htm	Contact Us
+Database.htm Database Design
+Experiments.htm	Experiments Used
+FutureScope.htm Future Scope
+Credits.htm Credits
+Final.htm Final Thoughts

@@ -1,0 +1,30 @@
+﻿../story/whatisnext.htm?../experiments/story.txt  What is Next?
+../experiments/css3/css3Borders.aspx/ CSS3 Borders, Shadows, Gradient
+../experiments/JQuery/Effects.aspx/ Expand or Collapse using JQuery Effects
+../experiments/JQuery/Javascript/Expand-collapse.aspx/ Expand or Collapse without using JQuery Library
+../experiments/css3/vertical-nav.aspx/ Vertical Navigation using CSS
+../experiments/css3/css3Animation.aspx/ Maze using CSS3 Animation
+../experiments/JQuery/Rclick.aspx/ Disable Right Click using JQuery
+../experiments/masterExp.aspx/ Demonstration of Master Page
+../experiments/JQuery/clock.aspx/ Digital Clock using JQuery
+../experiments/ASP.NET/basicasp.aspx/ Basic ASP.NET and String Handling in C#
+../experiments/ASP.NET/uploader.aspx/ ASP.NET File Uploader
+../experiments/ASP.NET/validators.aspx/ Validators in ASP.NET
+../experiments/ASP.NET/adrotator.aspx/ Ad Rotator in ASP.NET
+../experiments/SQL/test.aspx/ Basic SQL connection
+../experiments/ASP.NET/email.aspx/ Sending Emails using ASP.NET
+../experiments/JQuery/slideshow.aspx/ Image Slideshow using JQuery
+../experiments/SQL/sqlOperations.aspx/ SQL Operations-SELECT, INSERT and DELETE
+../experiments/ASP.NET/Multiview.aspx/ ASP.NET Multiview and AJAX Update Panel Control
+../experiments/ASP.NET/login.aspx/ Login control in ASP.NET
+../experiments/ASP.NET/register.aspx/ Register New User - CreateUserWizard Control in ASP.NET
+../experiments/LINQ/basicLinq.aspx/ Basic LINQ connection and queries
+../experiments/Ajax/slide.aspx/ Image slideshow using AJAX
+../experiments/Ajax/loading.aspx/ UpdateProgress control in AJAX
+../experiments/googlemaps/googlemaps.aspx/ Embedding Google Map using Google Map API
+../experiments/ASP.NET/repeater.aspx/ Read XML file and display it using ASP.NET Repeater
+../experiments/SQL/editableGrid.aspx/ Update Data using Editable Gridview
+../experiments/pageHits.aspx/ Page Hit Counter
+../experiments/LINQ/insert.aspx/ Inserting data using LINQ
+../experiments/HTML5/webstorage.aspx/ HTML5 Web Storage
+../experiments/googlemaps/GoogleSearch.aspx/ Embedding Google Search using Google Web Search API

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<dining>
+  <dine>
+    <Cuisine>Indian</Cuisine>
+    <RestaurantName>Masala Kraft</RestaurantName>
+    <Description>This inviting eatery manages to echo both, the rusticity of a traditional coastal home and the casual chic of a café.</Description>
+    <Rating>5.0</Rating>
+  </dine>
+  <dine>
+    <Cuisine>Multi Cuisine</Cuisine>
+    <RestaurantName>Shamiana</RestaurantName>
+    <Description>
+      Shamiana is the ideal spot for stylish all-hours dining, featuring an extensive
+      wine list and a variety of Indian and International cuisines.
+    </Description>
+    <Rating>5.0</Rating>
+  </dine>
+  <dine>
+    <Cuisine>South East Asian</Cuisine>
+    <RestaurantName>Thai Pavilion</RestaurantName>
+    <Description>Thai Pavilion offers one of the best South East Asian dishes that challenge you to resist.</Description>
+    <Rating>4.8</Rating>
+  </dine>
+  <dine>
+    <Cuisine>Pastries and Desserts</Cuisine>
+    <RestaurantName>La Patisserie</RestaurantName>
+    <Description>La Patisserie is just the place to grab your early morning treats; cakes, pastries and 
+    confectionery.</Description>
+    <Rating>4.9</Rating>
+  </dine>
+  <dine>
+    <Cuisine>Bar</Cuisine>
+    <RestaurantName>Rouge Bar</RestaurantName>
+    <Description>Distinctive elixirs, the latest music and mouth-watering eats in a vibrant setting, come 
+    together to provide a spirited experience like no other.</Description>
+    <Rating>4.9</Rating>
+  </dine>
+</dining>

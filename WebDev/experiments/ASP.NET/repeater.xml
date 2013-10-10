@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<myrepeater>
+  <product>
+    <id>1</id>
+    <name>ABC</name>
+    <price>$50</price>
+  </product>
+  <product>
+    <id>2</id>
+    <name>DEF</name>
+    <price>$100</price>
+  </product>
+  <product>
+    <id>3</id>
+    <name>LMN</name>
+    <price>$150</price>
+  </product>
+  <product>
+    <id>4</id>
+    <name>ZYX</name>
+    <price>$200</price>
+  </product>
+  <product>
+    <id>5</id>
+    <name>XYZ</name>
+    <price>$250</price>
+  </product>
+</myrepeater>

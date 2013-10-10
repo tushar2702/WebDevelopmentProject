@@ -1,0 +1,79 @@
+﻿    /* The tag line for services that My hotel offers. I have used blockquote for that and given CSS to them */
+    .tagline
+    {
+        font-size:35px;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-style:italic;
+        padding-top:30px;
+        text-align:center;
+        padding-right:10px;
+    }
+    
+    blockquote 
+    {
+        margin: 0px;
+        padding: 10px;
+        quotes: "\201C" "\201D";
+    }
+     
+    blockquote:before 
+    { 
+         content: open-quote;
+         font-weight: bold; 
+    }
+    blockquote:after
+    { 
+        content: close-quote; 
+        font-weight: bold; 
+    }
+    
+    /*CSS for the various images inside the photo div.
+    I have also given a shadow to every image */
+    .photo img
+    {
+        width:200px;
+        height:150px;
+        border:1px solid black;
+        box-shadow: 5px 5px 3px #222;
+        -webkit-box-shadow:5px 5px 3px #222;
+        -moz-box-shadow:5px 5px 3px #222;
+        -o-box-shadow:5px 5px 3px #222;
+    }
+    
+    /* The photos are floating left against one another */
+    .photo
+    {
+        float:left;
+        margin-left:10px;
+        padding:25px;
+        width:200px;
+        text-align:justify;
+        color:Gray;
+       
+        
+    }
+    
+    /*CSS for all the links within the photo div */
+    .photo a
+    {
+        text-decoration:none;
+        font-style:italic;
+        color:#3090c7;
+    }
+    
+    /* I have used CSS to expand the image when you hover over the image. For this I have used 
+    transition property of CSS */
+    .photo a img
+    {
+        -webkit-transition: width 0.5s; /* Safari and Chrome */
+        -moz-transition: width 0.5s; /* Firefox 4 */
+        -o-transition: width 0.5s; /* Opera */
+        transition: width 0.5s;
+    }
+    
+    /*Here I increase the width from 200px to 220 px */
+    .photo a img:hover
+    {
+        width:220px;
+    }
+    

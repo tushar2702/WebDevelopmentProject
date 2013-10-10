@@ -1,0 +1,65 @@
+﻿    /*Aligning the title */
+    .align
+    {
+        padding-top:30px;
+        margin-left:50%;
+        font-size:25px;
+        font-weight:bold;
+        text-decoration:underline;
+    }
+
+    /* The text content below the title */
+      .title
+    {
+        font-style:italic;
+        font-size:19px;
+        margin-right:20px;
+    }
+    
+    /* Moving the regular expression validator to the left */
+    .moveLeft
+    {
+        margin-left:-200px;
+    }
+    
+      /* CSS for round text boxes */
+    .round
+    {
+        border:1px solid gray;
+        border-radius:3px;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        box-shadow: 2px 2px 3px gray inset;
+        -webkit-box-shadow: 2px 2px 3px gray inset;
+        -moz-box-shadow: 2px 2px 3px gray inset;
+        padding:5px;
+        color:#3090C7;
+        font-family:Bell MT, Adobe Garamond Pro,Serif;
+        width:200px;
+        font-size:16px;
+        font-weight:bold;
+    }
+    
+    /* CSS for long text box*/
+    .long
+    {
+        width:300px;
+    }
+    
+    /* CSS for Buttons */
+    .btn
+    {
+        padding:10px;
+        font-family:Bell MT,Adobe Garamond Pro,Serif;
+        font-size:16px;
+        font-weight:bold;
+    }
+    
+    /* CSS for labels */
+    .lbl
+    {
+        font-size:20px;
+        font-style:italic;
+        
+    }
+    

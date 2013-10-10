@@ -1,0 +1,114 @@
+﻿
+
+/* CSS for the entire check availability form */
+.available-form
+{
+    padding-top: 50px;
+}
+
+/* The available form has a table */
+table
+{
+    -webkit-box-shadow: 0px 0px 7px 4px #888;
+    -moz-box-shadow: 0px 0px 7px 4px #888;
+    -o-box-shadow: 0px 0px 7px 4px #888;
+    box-shadow: 0px 0px 7px 4px #888;
+    border: 0px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #faf0e6;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 32%;
+}
+
+/* The labels for all text boxes */
+.subtitle
+{
+    font-size: 17px;
+    padding: 7px;
+    color: black;
+    font-variant: small-caps;
+}
+
+
+/* CSS for round text boxes */
+.round
+{
+    border: 0px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 2px 2px 3px gray inset;
+    -webkit-box-shadow: 2px 2px 3px gray inset;
+    -moz-box-shadow: 2px 2px 3px gray inset;
+    padding: 5px;
+    font-size: 16px;
+    color: #222;
+    width: 155px;
+    font-family: Bell MT,Adobe Garamond Pro,Serif;
+    font-weight: bold;
+}
+
+.button
+{
+    padding: 10px;
+    font-family: Bell MT,Adobe Garamond Pro,Serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Drop Down Lists*/
+.ddl
+{
+    font-size: 16px;
+    font-family: Bell MT, Adobe Garamond Pro, Serif;
+    font-weight: bold;
+}
+
+/* The div for the label for displaying the number of rooms available */
+.display_rooms
+{
+    padding-top: 20px;
+}
+
+/* CSS for the label for displaying rooms as well as proceed button */
+.disp_rooms, .proceed
+{
+    margin-left: 40px;
+    font-size: 19px;
+    font-family: Bell MT, Adobe Garamond Pro,Serif;
+    margin-right: 20px;
+}
+
+/* The label for displaying the number of rooms available */
+.disp_rooms
+{
+    color: Black;
+    font-style: italic;
+}
+
+/* CSS for proceed button */
+.proceed
+{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+table tr th
+{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+    text-align: center;
+}

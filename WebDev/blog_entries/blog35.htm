@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <p>
+        The next feature that I had thought of implementing is the Rewards that the 
+        customer gets when he books rooms in my hotel. The first thing was the database 
+        design. I have two tables in my database for achieving this. One is &quot;Points&quot; 
+        table with the username and the number of points he has gained till now. The 
+        other table is the &quot;Coupon&quot; table with the coupon code, the description and the 
+        minimum number of points that is required to redeem the coupon.</p>
+    <p>
+        I have written this code in SQL query and I have used a join on the two tables 
+        Coupon and Points to display the code description and mimimum points. So for 
+        this I need to display only the information for that user (based on the username 
+        from the Points table) and for the condition that the user must have the minimum 
+        number of points i.e. to compare the points in the Points table with the min 
+        points in the Coupon Table.
+    </p>
+    <p>
+        I have also displayed the current points that the user has gained by writing 
+        another SQL query to retrieve the current points from the Points table for the 
+        user that is logged in.</p>
+
+</body>
+</html>

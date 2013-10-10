@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <p>
+        I had developed the homepage and the services page of my projects. Now, I 
+        started with the most important &quot;RESERVATIONS&quot; page. This would take a lot of 
+        time to develop and that&#39;s why it was important in the beginning itself of what 
+        is required and how the reservation pages look like. So, I started with pen and 
+        paper and designed the initial look of the Reservations page. Once that was 
+        done, I started working on it using ASP.NET, HTML and CSS. I used a few of my 
+        experiments CSS which helped me make the rounded text boxes and give shadows 
+        using box-shadow property of CSS3. So it was a lot of reuse of my existing 
+        knowledge of CSS.</p>
+    <p>
+        Now, for the Check-in date and Check-out date, I wanted to use a datepicker and 
+        therefore Jquery&#39;s datepicker was the best to use. So, I added the jquery ui 
+        library through google apis. I thought this was pretty easy and would work in 
+        the first try itself. But, it didn&#39;t. This is because there are problems when we 
+        use asp:textbox in child pages of existing master pages. The child page controls get 
+        strange id names and hence instead of using #id_name I need to use
+        input[id$=&#39;id_name&#39;]. Or alternatively, I can use HTML text box rather 
+        than ASP.NET text boxes. And that worked!!! It was this link that helped me 
+        understand why such problems occur
+        <a href="http://forum.jquery.com/topic/jquary-datepicker-is-not-working-inside-asp-net-masterpage-application">
+        http://forum.jquery.com/topic/jquary-datepicker-is-not-working-inside-asp-net-masterpage-application</a>. 
+        Next would be the functionality of the Reservation page where I will start with 
+        checking the availability of existing rooms according to the room type selected 
+        by the user. </p>
+
+</body>
+</html>

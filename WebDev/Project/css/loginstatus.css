@@ -1,0 +1,25 @@
+﻿.loginStatus
+    {
+        margin:30px;
+        font-size:20px;
+        text-decoration:none;
+        float:right;
+        background: url('../images/button-bg.png') repeat-x;
+        border: 1px solid #999;
+        border-radius:5px;
+		-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		-o-border-radius:5px;
+		-ms-border-radius:5px;
+		padding: 5px; 
+		color: Black; 
+		font-weight: bold;
+		text-align:center;
+		width: 70px;
+    }
+    
+    .loginStatus:hover
+    {
+        background:black;
+        color:White;
+    }

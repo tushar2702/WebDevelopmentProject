@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Careers</title>
+    <link rel="Stylesheet" href="../../css/enlarge.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style_screen.css" type="text/css" />
+</head>
+<body class="centerblock">
+    <h2 class="center">
+        Careers</h2>
+    <hr />
+    <br />
+    <div class="fs130">
+        <p>
+            On the careers page, the users may wish to search for jobs, apply online and upload
+            their resume. I have a few pages to accomplish this.
+        </p>
+        <p>
+            On the first page, to search for jobs the user can see two drop down lists one for
+            selecting the job title and the other one for selecting one of our locations and
+            then click on job search. These drop down lists are populated using SQL Data Source.
+            I have stored few jobs for these combinations in the database. If there is a match
+            for the combination that the user supplied, I write a LINQ Query to retrieve this
+            data from the database and display it using ASP.NET GridView. Below there is a button
+            which will take the user to the Online Application page. This button becomes visible
+            only if a match is obtained.
+        </p>
+        <p>
+            The second page is an online application form for the applicants. I have text fields
+            such as name, email address, country, city, state, zip code, phone number and work
+            experience. I have used ASP.NET Validators for all of these including RequiredFieldValidators
+            and RegularExpressionValidators. I have used most of my experiment on ASP.NET validation
+            here. The user can submit the application and once it is submitted he is redirected
+            to the resume upload page which is the last page.
+        </p>
+        <p>
+            On this page, the user is given the option to upload his resume. I have made use
+            of ASP.NET File Upload control and I had also performed an experiment on this. 
+            The desired file gets uploaded in the ~/UploadedFiles directory.</p>
+        <p>
+            Important Technologies used in this page:</p>
+        <ul>
+            <li>SQL</li>
+            <li>LINQ</li>
+            <li>ASP.NET GridView Control</li>
+            <li>ASP.NET Validator Control</li>
+            <li>ASP.NET File Upload Control</li>
+        </ul>
+    </div>
+</body>
+</html>

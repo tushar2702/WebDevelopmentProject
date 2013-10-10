@@ -1,0 +1,59 @@
+﻿
+/*CSS for the create user wizard control. I have given box shadow to it! */
+.userWiz
+{
+    -webkit-box-shadow: 0px 0px 7px 4px #888;
+    -moz-box-shadow: 0px 0px 7px 4px #888;
+    -o-box-shadow: 0px 0px 7px 4px #888;
+    box-shadow: 0px 0px 7px 4px #888;
+    border: 0px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #60b7b7;
+}
+
+/* CSS for the table under the user wizard */
+.regTable
+{
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* CSS for round text boxes */
+.round
+{
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 2px 2px 3px gray inset;
+    -webkit-box-shadow: 2px 2px 3px gray inset;
+    -moz-box-shadow: 2px 2px 3px gray inset;
+    padding: 5px;
+    color: Gray;
+    font-family: Bell MT,Adobe Garamond Pro,Serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reg
+{
+    padding: 30px;
+    margin-left: 35%;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+/* CSS for the button */
+.btn
+{
+    padding: 7px;
+    margin-top: -30px;
+    font-family: Bell MT, Adobe Garamond Pro, Serif;
+    font-weight: bold;
+}

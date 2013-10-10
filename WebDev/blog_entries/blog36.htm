@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <p>
+        Today I learnt about ASP.NET repeater control. I wanted to know how to read an 
+        XML file and display it using ASP.NET Repeater so that I can use this for my 
+        project!
+    </p>
+    <p>
+        I came across a control called Repeater in ASP.NET which has certain tags such 
+        as HeaderTemplate, ItemTemplate and FooterTemplate. Now first you need an XML 
+        file that you want to read. You need to create an instance of DataSet and read 
+        the xml file using this instance. Then, drag and drop the asp.net repeater and 
+        bind that to the datasource i.e. the xml file.</p>
+    <p>
+        Once this is in place, to bind data in the ItemTemplate,use this code: <code>
+        DataBinder.Eval(Container.DataItem, [name of the data item in xml file])</code> 
+        and you are done! Isn&#39;t this awesome!</p>
+    <p>
+        Also for my project, I designed the &quot;Contact Us&quot; page where I have put contact 
+        information about me (the owner of Tushar Hotels and Resorts). In this I have 
+        used Google Map experiment that I had performed to point to the location of my 
+        hotel and set a marker over there. I have also used the google widget which 
+        gives you directions to the Hotel. Also on the contact page, I have a link to 
+        send feedback. By clicking on this a new page is opened and you need to fill in 
+        your name, your email address , subject and comments and then submit to send me 
+        an email at the email address that I have created for this course
+        <a href="mailto:xyz1abc23@gmail.com">xyz1abc23@gmail.com</a>...
+    </p>
+
+</body>
+</html>

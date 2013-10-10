@@ -1,0 +1,152 @@
+﻿
+Body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 830px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(gray));
+    background: -moz-linear-gradient(to bottom, white,gray);
+    background: -o-linear-gradient(top, white, gray);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='gray'); /* for IE */
+    font-family: Bell MT,Adobe Garamond Pro,Serif;
+}
+
+/* CSS for header */
+.Header
+{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(gray));
+    background: -moz-linear-gradient(to bottom right, black,gray);
+    background: -o-linear-gradient(bottom, black, gray);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='gray'); /* for IE */
+    background-size: 100%;
+    color: Gray;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 60px; /* border-bottom: 1px solid #444; */
+}
+
+span
+{
+    color: #3090C7;
+}
+
+
+.container
+{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #FAF0E6; /* background-color:#EBE9E9; */
+    min-height: 1100px;
+    -webkit-box-shadow: 0px 3px 7px 4px black;
+    -moz-box-shadow: 0px 3px 7px 4px black;
+    -o-box-shadow: 0px 3px 7px 4px black;
+    box-shadow: 0px 3px 7px 4px black;
+}
+
+/* Vertical Navigation div */
+.nav
+{
+    width: 20%;
+    height: 1050px;
+    padding: 20px;
+    padding-left: 0px;
+    float: left;
+    margin-top: -30px;
+}
+
+.vertical li
+{
+    list-style-type: none;
+    background: #60b7b7;
+    -webkit-box-shadow: 3px 0px 5px rgb(8, 143, 143) inset; /* box shadow property for Chrome and Safari */
+    box-shadow: 3px 0px 5px rgb(8, 143, 143) inset; /* background: rgb(127, 201, 68); */ /* -webkit-box-shadow: 3px 0px 5px rgb(127, 201, 68) inset;          -moz-box-shadow: 3px 0px 5px rgb(127, 201, 68) inset;           box-shadow: 3px 0px 5px rgb(127, 201, 68) inset; */
+    -webkit-transition: all 0.2s linear; /* Safari and Google chrome */
+    -o-transition: all 0.2s linear; /*Opera*/
+    -moz-transition: all 0.2s linear; /* Firefox */
+    transition: all 0.2s linear;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: -40px;
+    padding: 10px;
+    text-align: center;
+    width: 95%;
+    min-width: 122px;
+}
+
+.vertical li:hover
+{
+    padding-left: 30px;
+    padding-right: 20px; /* background-color: rgb(153,249,75); */
+    background-color: rgb(8, 250, 190);
+}
+
+.vertical li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer
+{
+    clear: both;
+    font-size: 15px;
+    text-align: center;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(gray));
+    background: -moz-linear-gradient(to bottom right, black,gray);
+    background: -o-linear-gradient(bottom, black, gray);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='gray'); /* for IE */
+    color: Gray;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: -20px;
+}
+
+/* CSS for the clock div. This gives a border to the clock */
+.clock
+{
+    color: white;
+    float: right;
+}
+
+/* This is the CSS for the entire date thus giving shadow effect and desirable font */
+.Date
+{
+    font-family: 'Trebuchet MS' , Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0px 2px 2px gray;
+}
+
+/* css for date ul */
+.Date1
+{
+    width: 100px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: -30px;
+}
+
+/* The hours, min, sec is shown as a list which is displayed inline */
+.Date1 li
+{
+    display: inline;
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Trebuchet MS' , Arial, sans-serif;
+    text-shadow: 0px 3px 3px gray;
+}
+
+/* The link to Main Homepage of my website */
+.MainHome
+{
+    float: right;
+    text-decoration: none;
+    color: Gray;
+}

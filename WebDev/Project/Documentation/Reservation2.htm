@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reservation 2</title>
+    <link rel="Stylesheet" href="../../css/enlarge.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="Stylesheet" href="../../css/style_screen.css" type="text/css" />
+</head>
+<body class="centerblock">
+    <h2 class="center">
+        Reservation - 2 (Retrieve Booking)</h2>
+    <hr />
+    <br />
+    <div class="fs130">
+        <p>
+            The users can also retrieve their past bookings that they have made with us! On
+            the Retrieve page, I have initially hidden all the booking details of the user.
+            Once he clicks on "Click here to show your bookings" the panel will slide down to
+            show the user his bookings. And the text will change to "Click here to hide your
+            bookings". I have used JQuery to achieve this.
+        </p>
+        <p>
+            Now the main part was to retrieve the booking depending on what the username is.
+            I have used LINQ to achieve this. I have written a LINQ query where I have used
+            a join condition on my two tables Rooms and BookedRooms. It matches the username
+            with which the person is logged in and retrieves his details such as checkin and
+            checkout time and the room type he has booked.
+        </p>
+        <p>
+            <img alt="Retrieve" src="../images/documentation/retrieve.png" width="800"
+                height="400" />
+        </p>
+        <p>
+            Important Technologies used:</p>
+        <ul>
+            <li>JQuery</li>
+            <li>LINQ</li>
+        </ul>
+    </div>
+</body>
+</html>

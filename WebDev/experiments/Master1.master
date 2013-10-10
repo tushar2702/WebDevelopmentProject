@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        /* The white container which is contained inside the body */
+        .container
+        {
+            background-color: White;
+            max-width: 800px;
+            min-width: 305px;
+            margin: 40px auto;
+            padding: 0px 15px;
+            border: 2px solid #666;
+            border-radius: 15px;
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            box-shadow: 0 0 7px 7px #555;
+            -moz-box-shadow: 0 0 7px 7px #555;
+            -webkit-box-shadow: 0 0 7px 7px #555;
+        }
+        
+        /* The header which contains the title and the subtitle
+ that is, my name and the subject name */
+        .Header
+        {
+            background-image: url('../../images/homepage/banner.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -webkit-background-size: 100% 100%;
+            text-align: center;
+            height: 150px;
+            border: 0px solid #0f2228;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+        
+        /* This holds the link which has my name written */
+        
+        h1.name
+        {
+            padding-top: 20px;
+        }
+        
+        /* This is the CSS for the link on my name */
+        h1.name a
+        {
+            font-family: 'Trebuchet MS' , Arial, Sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            letter-spacing: 0px;
+            text-decoration: none;
+            color: #a2b9b8;
+            padding: 0px;
+            margin: 0;
+            text-shadow: 5px 5px 5px black;
+        }
+        
+        /* The subtitle which is the course name */
+        .subtitle
+        {
+            font-family: 'Trebuchet MS' , Arial, Sans-serif;
+            font-size: 18px;
+            font-style: italic;
+            letter-spacing: -0.5px;
+            color: #a2b9b8;
+        }
+        
+        /* The navigation bar */
+        .nav
+        {
+            text-align: center;
+        }
+        
+        .nav ul
+        {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        
+        .nav ul li
+        {
+            display: inline-block;
+            text-align: center;
+            background: -webkit-gradient(linear, 0 0, 100% 100%, from(#333), to(#6facb8));
+            background: -moz-linear-gradient(to right, #333, #6facb8);
+            background: -o-linear-gradient(#333,#6facb8);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6facb8', endColorstr='black');
+            padding: 7px;
+            min-width: 70px;
+            border: 0px solid;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+        
+        .nav ul li a
+        {
+            color: White;
+            font-family: Palatino Linotype;
+            text-decoration: none;
+        }
+        
+        
+        .nav ul li a:hover
+        {
+            color: Black;
+        }
+        
+        
+        
+        .footer
+        {
+            font-family: 'Trebuchet MS' , Arial, Sans-serif;
+            color: #222;
+            font-size: 75%;
+            text-align: center;
+        }
+    </style>
+    <style type="text/css" media="screen">
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background-color: #6facb8;
+        }
+        
+        
+        
+        .pad
+        {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pad">
+        <form id="form2" runat="server">
+        <div class="container ">
+            <div class="Header">
+                <h1 class="name">
+                    <a href="../../Default.aspx" target="_blank">Tushar Bhandari</a>
+                </h1>
+                <h3 class="subtitle">
+                    CS 5610 Web Development
+                </h3>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../../source/" target="_blank">Source</a></li>
+                    <li><a href="../../statistics/" target="_blank">Statistics</a></li>
+                    <li><a href="../../sitestatistics/" target="_blank">SiteStatistics</a></li>
+                    <li><a href="../../search/" target="_blank">Search</a></li>
+                    <li><a href="../../autofile.aspx" target="_blank">AutoFile</a></li>
+                    <li><a href="../../images/autoimage.aspx" target="_blank">Images</a></li>
+                    <li><a href="../../blog/" target="_blank">Blog</a></li>
+                    <li><a href="../../story/index.htm?../experiments/story.txt" target="_blank">Experiments</a></li>
+                </ul>
+            </div>
+            <!-- End of nav div -->
+            <div class="Body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- End of Body div -->
+        </div>
+        <!-- End of container div -->
+        <div class="footer">
+            &copy; 2012 Tushar Bhandari. All rights reserved.
+        </div>
+        </form>
+    </div>
+</body>
+<!-- End of body -->
+</html>

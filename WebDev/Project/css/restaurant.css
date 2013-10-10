@@ -1,0 +1,42 @@
+﻿
+/* Gridview should not stick to the right hence given a margin right to it */
+.grid
+{
+    margin-right: 40px;
+}
+
+/* Description about the special meals at the top*/
+.SpecialDescription
+{
+    margin-right: 35px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* To align the title of the page */
+.align
+{
+    padding-top: 30px;
+    margin-left: 45%;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Drop down list */
+.ddl
+{
+    font-size: 16px;
+    font-family: Bell MT, Adobe Garamond Pro, Serif;
+    font-weight: bold;
+    background-color: #FAF0E6;
+    width: 200px;
+}
+
+.italic
+{
+    font-style: italic;
+    color: Black;
+    font-size: 22px;
+}
+

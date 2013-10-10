@@ -1,0 +1,74 @@
+﻿/* set the width and height of the div which has id slideshow. */
+    #slideshow {
+      position:relative;
+      margin-left:21.5%;
+      max-width: 60%;
+      height:350px;
+      padding-top:5px;
+      
+    }
+    
+    /* set the position and dimensions of the image */
+    #slideshow img {
+      position:absolute;
+      display: none;
+      width:100%;
+      height:320px;
+      margin-top:15px;
+      -webkit-box-shadow: 0px 3px 7px 4px black;
+      -moz-box-shadow: 0px 3px 7px 4px black;
+      -o-box-shadow: 0px 3px 7px 4px black;
+      box-shadow: 0px 3px 7px 4px black;
+      
+    }
+    
+    /* set the display to be block for the image which is active */
+    #slideshow img.active {
+      display:block;
+    }
+    
+    .right
+    {
+        margin-top:-735px;
+        float:right;
+        margin-right:15px;
+        width:14%;
+        
+    }
+    
+    .info
+    {
+        text-decoration:underline;
+        margin-right:40px;
+        font-size:15px;
+       
+    }
+    
+    .city
+    {
+        margin-left:-20px;
+        
+    }
+   
+   .content1
+   {
+     width:82%;
+     text-align:justify;
+     font-size:17px;
+     
+   }
+   
+   /* I have shown 1st letter of the first sentence as a big letter
+    So i used the font-size and line-height property to achieve this */
+    .firstLetter
+    {
+    font-size: 62px;
+    line-height: 42px;
+    height: 45px;
+    padding: 0;
+    color: #222;
+    position: relative;
+    text-transform: uppercase;
+    margin-right:-5px;
+    
+    }
